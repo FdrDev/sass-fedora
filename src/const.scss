@@ -1,0 +1,47 @@
+*{margin:0;padding: 0; box-sizing: border-box;}
+
+$textColor: black;
+$myBackground:radial-gradient(#03a9f4, #004b6d);
+$mainColor:#d70f64;
+
+
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+  background: $myBackground;
+  height: 100vh;
+  color: $textColor;
+}
+
+.container90{
+  width: 90%;
+  margin: auto;
+}
+
+.textCont{
+  text-align: center;
+  h2{
+    text-transform: uppercase;
+    color:$mainColor;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  p{
+    width: 840px;
+    margin: auto;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  input[type="button"]{
+    width: 33%;
+    padding: 20px;
+    color: white;
+    background-color: $mainColor;
+    border: none;
+  }
+}
+
+  .textCont *{
+    margin: 25px 0;
+  }

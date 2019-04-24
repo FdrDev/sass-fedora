@@ -1,0 +1,41 @@
+$backgColHeader:white;
+
+header{
+
+  position: fixed;
+  top: 0;
+  background:$backgColHeader;
+  width: 100%;
+  padding: 8px 0;
+  z-index: 1000 !important;
+  box-shadow: 0.5px 0.5px 15px rgba(0,0,0,0.1);
+
+  .headerContainer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+
+    .headerLogo {
+      width: 244px;
+    }
+
+    .headerLink{
+      text-transform: uppercase;
+
+
+      ul{
+        display: flex;
+        align-items: center;
+        li{
+          padding: 15px;
+          list-style-type: none;
+          letter-spacing: 2px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+}
