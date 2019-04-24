@@ -47,6 +47,16 @@ body {
   margin: 25px 0;
 }
 
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -134,6 +144,16 @@ body {
   margin: 25px 0;
 }
 
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
 section[class=motto] {
   position: relative;
   height: 100vh;
@@ -199,5 +219,129 @@ section[class=carrers] {
 
 section[class=carrers] p {
   color: white;
+}
+
+section[class=press] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section[class=press] p {
+  color: white;
+}
+
+section[class=contact] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #D70F64;
+}
+
+section[class=contact] h2 {
+  color: white;
+}
+
+section[class=contact] p {
+  color: white;
+}
+
+section[class=contact] input[type=button] {
+  background-color: white;
+  color: #d70f64;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: radial-gradient(#03a9f4, #004b6d);
+  height: 100vh;
+  color: black;
+}
+
+.container90 {
+  width: 90%;
+  margin: auto;
+}
+
+.textCont {
+  text-align: center;
+}
+
+.textCont h2 {
+  text-transform: uppercase;
+  color: #d70f64;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.textCont p {
+  width: 840px;
+  margin: auto;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.textCont input[type=button] {
+  width: 33%;
+  padding: 20px;
+  color: white;
+  background-color: #d70f64;
+  border: none;
+}
+
+.textCont * {
+  margin: 25px 0;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background-color: white;
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+
+footer .container90 {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container90 .headerLogo {
+  width: 244px;
+}
+
+footer .container90 .circleContainer {
+  display: flex;
+}
+
+footer .container90 .social i {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+footer .container90 .social .footerLink p {
+  display: inline-block;
+  padding: 0 10px;
 }
 

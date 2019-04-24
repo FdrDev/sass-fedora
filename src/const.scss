@@ -45,3 +45,13 @@ body{
   .textCont *{
     margin: 25px 0;
   }
+
+  .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+  }

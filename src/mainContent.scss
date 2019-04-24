@@ -68,3 +68,38 @@ section[class="carrers"]{
     color:white;
   }
 }
+
+section[class="press"]{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  p{
+    color:white;
+  }
+}
+
+section[class="contact"]{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #D70F64;
+
+  h2{
+    color:white;
+  }
+
+  p{
+    color:white;
+  }
+
+  input[type="button"]{
+    background-color: white;
+    color:$mainColor;
+  }
+}
